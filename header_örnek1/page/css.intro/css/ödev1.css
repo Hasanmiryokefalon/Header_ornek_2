@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550px;
+}
+
+.header_comteiner {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.logo_conteiner {
+    display: inline;
+    width: 70px;
+    margin-top: 28px;
+    margin-left: 24px;
+}
+
+.logo {
+    display: inline;
+    height: 80px;
+    margin-right: 50px;
+}
+
+.menu_conteiner {
+    display: inline;
+    font-size: 20px;
+    margin-left: 40px
+}
+
+.menu {
+    display: inline;
+    margin-right: 45px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#yeni {
+    color: green;
+}
+
+#outlet {
+    color: red;
+}
+
+.search_conteiner {
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+}
+
+.secim_conteiner {
+    display: inline;
+}
+
+.secim {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}

@@ -1,0 +1,55 @@
+.flex_conteiner{
+    display: flex;
+    background-color: white;
+    margin-left: 250px;
+    height: 80px;
+    width: 70%;
+    gap: 50px 20px;
+    flex-wrap: wrap;
+}
+.flex_conteiner > div {
+border: 1px solid black;
+width: 50px;
+height: 50px;
+padding: 5px;
+margin: 10px;
+font-size: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.title_conteiner{
+   margin-left: 250px;
+}
+.category{
+    height: 60px;
+    width: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.category span {
+    font-size: 15px;
+    margin-top: 30px;
+    display: block;
+}
+.category > a {
+    text-decoration: none;
+    color: black;
+}
+.title{
+    text-decoration: none;
+}
+.title_category{
+color: black;
+    height: 20px;
+    width: 40px;
+    margin-top: -50px;
+    padding-top: 20px;
+}
